@@ -1,0 +1,252 @@
+body{
+    background-color: #d6d5d5;
+    color: black;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #8f8f8f;
+    color: #000000;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar input[type="text"], 
+.navbar input[type="password"],
+.navbar button
+{
+    padding: 5px; 
+    border: 1px solid #fc0000; 
+    border-radius: 4px; 
+    background-color: #fdfbfb;
+    color: #000000; 
+    width: 150px; 
+    box-sizing: border-box;
+}
+
+.navbar button{
+    padding: 3px; 
+    border: 1px solid #fc0000; 
+    border-radius: 4px; 
+    background-color: #bd0707;
+    color: #000000; 
+    width: 100px; 
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+
+.navbar input[type="text"]:focus,
+.navbar input[type="password"]:focus,
+.navbar button:focus {
+    outline: none;
+}
+.navbar button:hover{
+    background-color: #9b0000;
+}
+
+.Logo {
+    height: 50px;
+    width: 500px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+}
+
+.button-container{
+    height: 20px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #8f8f8f;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    background-color: #bd0707;
+    padding: 10px;
+    text-align: right;
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 80px;
+}  
+
+.pesquisa-container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#campo-pesquisa{
+    padding: 10px;
+    width: 130px;
+    flex: 1;
+    border: 1px solid #bd0707;
+    background-color: #e4e2e2;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#botao-pesquisa{
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #bd0707;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#botao-pesquisa:hover{
+    background-color: #630202;
+}
+
+aside{
+    background-color: #585858;
+    width: auto;
+    float: left;
+    height: 330vh;
+    border-right: 8px solid #e00404;
+    flex: 1;
+    z-index: 0;
+    position: relative;
+}
+
+ aside ul{
+    list-style-type: none;
+    padding:0;
+    margin:30px;
+ }
+
+aside ul li{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+aside ul li a{
+ color: #000000; 
+ text-decoration: none; 
+ font-weight: bold;
+ font-size: 20px;
+}
+
+a:hover {
+    color: #f50909;
+}
+
+.container{
+    padding: 10px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    right: 500px;
+    position: center;
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+    color:#000000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2{
+    color:#dd0808
+}
+
+.button-more{
+    background-color: #dd0808; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-bottom: 20px;
+}
+
+.button-more:hover{
+    background-color: #810303;
+}
+
+.borda{
+    margin-top: 20px;
+    padding:0 60px;
+    border: 1px solid rgb(172, 172, 172);  
+    border-radius: 10px;
+    background-color: #c7c7c7;
+}
+
+.coupe{
+    height: 200px;
+}
+
+.suv{
+    height: 244px;
+}
+
+.eletric{
+    height: 218px;
+}
+
+.sport{
+    height: 250px;
+}
+
+.old{
+    height: 300px;
+}
+
+.sedan{
+    height: 214px;
+}
+
+.fim {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #000000;
+    color: #e4e2e2;
+    text-align: center; /* Centraliza o texto */
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    list-style-type: none;
+}
+
+.fim li a{
+    color: #ffffff; 
+    font-style: bold;
+    }
+
+.fim li a:hover{
+    color: #f50909;
+}
